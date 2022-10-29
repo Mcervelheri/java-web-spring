@@ -38,6 +38,14 @@ public class User {
         return name;
     }
 
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
